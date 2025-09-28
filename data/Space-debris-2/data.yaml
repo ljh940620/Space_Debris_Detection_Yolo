@@ -1,0 +1,23 @@
+names:
+- cheops
+- debris
+- double_start
+- earth_observation_sat_1
+- lisa_pathfinder
+- proba_2
+- proba_3_csc
+- proba_3_ocs
+- smart_1
+- soho
+- xmm_newton
+- D2
+nc: 12
+roboflow:
+  license: CC BY 4.0
+  project: space-debris-mugw2
+  url: https://universe.roboflow.com/woah-noah/space-debris-mugw2/dataset/2
+  version: 2
+  workspace: woah-noah
+test: ../test/images
+train: ../train/images
+val: ../valid/images

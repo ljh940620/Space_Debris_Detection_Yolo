@@ -148,9 +148,9 @@ python src/evaluate/evaluate_final.py
 
 ## 3. 실험 환경 (Environment) (변경)
 - **항목**
-  - 운영체제	Windows 11 Pro
-  - 프로세서	AMD Ryzen 5 5600G (6-Core, 12-Thread)
-  - 메모리	48.0 GB
+  - 운영체제:	Windows 11 Pro
+  - 프로세서:	AMD Ryzen 5 5600G (6-Core, 12-Thread)
+  - 메모리:	48.0 GB
   - GPU	NVIDIA GeForce RTX 4060 (VRAM 8GB)
 
 ---
@@ -181,7 +181,7 @@ python src/evaluate/evaluate_final.py
 
 - **Test Set 기준 최종 성능 비교**
 | 지표 (Metric) |	yolov11n | yolov8n |
-| :--- | : --- | : --- || :--- | : --- | : --- |
+| :--- | : --- | : --- |
 | mAP@50 (일반 정확도) | 0.904 (90.4%) | **0.925 (92.5%)** |
 | 정밀도 (Precision) | **0.907 (90.7%)** | 0.880 (88.0%) |
 | 재현율 (Recall) |	0.817 (81.7%) |	**0.846 (84.6%)** |

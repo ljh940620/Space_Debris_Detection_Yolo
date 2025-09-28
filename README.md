@@ -7,7 +7,7 @@
 - **주요 결과:** YOLOv11n이 재현율(Recall)에서 0.727로 YOLOv8n(0.630) 대비 명백한 우위를 보임. 이는 '위험체 누락 방지'라는 핵심 목표에 더 부합함.
 - **결정:** YOLOv11n을 2주차 개선 대상 모델로 최종 선정.
 
-![Project Banner Image](result_detection.png)
+![Project Banner Image](assets/readme/result_detection.png)
 
 ## 1. Abstract (초록)
 본 프로젝트는 표준 객체 탐지 모델인 YOLOv8과 최신 연구 모델인 YOLOv11의 성능을 '우주 위험체 탐지'라는 특정 과업에 대해 비교 검증했습니다. 동일한 데이터셋과 학습 조건 하에서, YOLOv11이 더 높은 재현율(Recall)을 보여 '위험체 누락 방지'라는 핵심 목표에 더 부합함을 입증했습니다. 이 과정을 통해 최신 모델의 기술적 장단점을 실제 환경에서 비판적으로 분석하고, 프로젝트 목표에 따른 최적의 모델을 선정하는 전략적 의사결정 과정을 제시합니다.

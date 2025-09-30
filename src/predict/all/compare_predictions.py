@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from tqdm import tqdm
 
 """
-훈련된 모델의 예측 결과와 실제 정답(Ground Truth)을
+훈련된 모델의 예측 결과와 실제 정답(label)을
 나란히 비교하는 이미지를 생성하여 클래스별로 저장하는 스크립트입니다.
 """
 
